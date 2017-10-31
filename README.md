@@ -1,2 +1,2 @@
 # Queue
-Queue Implementation
+Generic Queue Implementation
