@@ -1,4 +1,4 @@
-#include "common.h"
+#include "common.h" //file conatain some utility functions
 #include "queue.h"
 
 void queueNew(Queue *q,int elemSize)
