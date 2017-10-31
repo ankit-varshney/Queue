@@ -7,7 +7,7 @@ void queueNew(Queue *q,int elemSize)
     q->elemSize = elemSize;
     q->start = -1;
     q->end = 0;
-    q->allocLength = 4;
+    q->allocLength = 40;
     q->elems = malloc(4 * elemSize);
     assert(q->elems != NULL);
 }
